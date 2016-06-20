@@ -1,9 +1,9 @@
 //
-//  IHF_ENums.h
-//  IHFnurse
+//  VIE_ENums.h
+//  Voice
 //
-//  Created by ihefelocal001 on 16/3/6.
-//  Copyright © 2016年 zhanghongwei. All rights reserved.
+//  Created by 户善新 on 16/6/15.
+//  Copyright © 2016年 户善新. All rights reserved.
 //
 
 
@@ -12,8 +12,8 @@
  */
 
 
-#ifndef IHF_ENums_h
-#define IHF_ENums_h
+#ifndef VIE_ENums_h
+#define VIE_ENums_h
 
 
 
@@ -29,7 +29,7 @@
 
 
 
-#endif /* IHF_ENums_h */
+#endif /* VIE_ENums_h */
 
 
 

@@ -1,10 +1,11 @@
 //
 //  SQLiteVersion.h
-//  IHFnurse
 //
-//  Created by ihefelocal001 on 16/3/8.
-//  Copyright © 2016年 zhanghongwei. All rights reserved.
+//  Voice
+//  Created by 户善新 on 16/6/15.
+//  Copyright © 2016年 户善新. All rights reserved.
 //
+
 
 #ifndef SQLiteVersion_h
 #define SQLiteVersion_h

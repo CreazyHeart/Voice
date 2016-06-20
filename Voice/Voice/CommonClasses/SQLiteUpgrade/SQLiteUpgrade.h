@@ -1,10 +1,10 @@
 //
 //  SQLiteUpgrade.h
-//  IHFnurse
+//  Voice
+//  Created by 户善新 on 16/6/15.
+//  Copyright © 2016年 户善新. All rights reserved.
 //
-//  Created by ihefelocal001 on 16/3/8.
-//  Copyright © 2016年 zhanghongwei. All rights reserved.
-//
+
 
 //  功能说明：
 //  提供一个数据库表结构更新的机制，保证用户无论从哪个版本安装程序，数据库结构保证适配。

@@ -1,13 +1,13 @@
 //
-//  IHF_Skin.h
-//  IHFmedicine
+//  VIE_Skin.h
+//  Voice
 //
-//  Created by ihefelocal001 on 16/3/10.
-//  Copyright © 2016年 zhanghongwei. All rights reserved.
+//  Created by 户善新 on 16/6/15.
+//  Copyright © 2016年 户善新. All rights reserved.
 //
 
-#ifndef IHF_Skin_h
-#define IHF_Skin_h
+#ifndef VIE_Skin_h
+#define VIE_Skin_h
 
 #import <UIKit/UIKit.h>
 
