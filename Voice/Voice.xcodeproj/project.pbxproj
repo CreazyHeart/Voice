@@ -8,13 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		19E2FEC8A0C8CBA45F91F8A8 /* libPods-Voice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290E17D8F82780868C73828D /* libPods-Voice.a */; };
-		DCB14DCE1D17953E005BEA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DCD1D17953E005BEA63 /* main.m */; };
-		DCB14DD11D17953E005BEA63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DD01D17953E005BEA63 /* AppDelegate.m */; };
-		DCB14DD41D17953E005BEA63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DD31D17953E005BEA63 /* ViewController.m */; };
-		DCB14DD71D17953E005BEA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB14DD51D17953E005BEA63 /* Main.storyboard */; };
-		DCB14DD91D17953E005BEA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB14DD81D17953E005BEA63 /* Assets.xcassets */; };
-		DCB14DDC1D17953E005BEA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB14DDA1D17953E005BEA63 /* LaunchScreen.storyboard */; };
 		DCB14DE71D17953E005BEA63 /* VoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DE61D17953E005BEA63 /* VoiceTests.m */; };
+		DCD4A7251D1796A4000C9A7A /* VIE_ErrorCode.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A68D1D1796A4000C9A7A /* VIE_ErrorCode.m */; };
+		DCD4A7261D1796A4000C9A7A /* IHFAcountMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6951D1796A4000C9A7A /* IHFAcountMgr.m */; };
+		DCD4A7271D1796A4000C9A7A /* IHFLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6981D1796A4000C9A7A /* IHFLoginRequest.m */; };
+		DCD4A7281D1796A4000C9A7A /* IHFAcountRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A69B1D1796A4000C9A7A /* IHFAcountRespond.m */; };
+		DCD4A7291D1796A4000C9A7A /* IHFCommitteeRepond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A69D1D1796A4000C9A7A /* IHFCommitteeRepond.m */; };
+		DCD4A72A1D1796A4000C9A7A /* IHFHospitalRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A69F1D1796A4000C9A7A /* IHFHospitalRespond.m */; };
+		DCD4A72B1D1796A4000C9A7A /* IHFFieldCategoryMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6A21D1796A4000C9A7A /* IHFFieldCategoryMgr.m */; };
+		DCD4A72C1D1796A4000C9A7A /* IHFCharacterCategaryListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6A51D1796A4000C9A7A /* IHFCharacterCategaryListRequest.m */; };
+		DCD4A72D1D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6A71D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.m */; };
+		DCD4A72E1D1796A4000C9A7A /* IHFGetCharacterValueRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6A91D1796A4000C9A7A /* IHFGetCharacterValueRequest.m */; };
+		DCD4A72F1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6AC1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.m */; };
+		DCD4A7301D1796A4000C9A7A /* IHFCharacterCategaryListRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6AE1D1796A4000C9A7A /* IHFCharacterCategaryListRespond.m */; };
+		DCD4A7311D1796A4000C9A7A /* IHFGetCharacterValueRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6B01D1796A4000C9A7A /* IHFGetCharacterValueRespond.m */; };
+		DCD4A7321D1796A4000C9A7A /* IHFMedicineInstructionsMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6B51D1796A4000C9A7A /* IHFMedicineInstructionsMgr.m */; };
+		DCD4A7331D1796A4000C9A7A /* IHFMedicIndexRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6B81D1796A4000C9A7A /* IHFMedicIndexRequest.m */; };
+		DCD4A7341D1796A4000C9A7A /* IHFMedicSearchInstrRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6BA1D1796A4000C9A7A /* IHFMedicSearchInstrRequest.m */; };
+		DCD4A7351D1796A4000C9A7A /* IHFMedicSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6BC1D1796A4000C9A7A /* IHFMedicSearchRequest.m */; };
+		DCD4A7361D1796A4000C9A7A /* IHFModifyMedicInstrRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6BE1D1796A4000C9A7A /* IHFModifyMedicInstrRequest.m */; };
+		DCD4A7371D1796A4000C9A7A /* IHFMedicIndexBaseRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6C11D1796A4000C9A7A /* IHFMedicIndexBaseRespond.m */; };
+		DCD4A7381D1796A4000C9A7A /* IHFMedicIndexClassRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6C31D1796A4000C9A7A /* IHFMedicIndexClassRespond.m */; };
+		DCD4A7391D1796A4000C9A7A /* IHFMedicIndexRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6C51D1796A4000C9A7A /* IHFMedicIndexRespond.m */; };
+		DCD4A73A1D1796A4000C9A7A /* IHFMedicSearchInstrRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6C71D1796A4000C9A7A /* IHFMedicSearchInstrRespond.m */; };
+		DCD4A73B1D1796A4000C9A7A /* IHFMedicSearchRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6C91D1796A4000C9A7A /* IHFMedicSearchRespond.m */; };
+		DCD4A73C1D1796A4000C9A7A /* IHFRuleTreeMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6CC1D1796A4000C9A7A /* IHFRuleTreeMgr.m */; };
+		DCD4A73D1D1796A4000C9A7A /* IHFLookUpRuleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6CF1D1796A4000C9A7A /* IHFLookUpRuleRequest.m */; };
+		DCD4A73E1D1796A4000C9A7A /* IHFRuleCategaryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6D11D1796A4000C9A7A /* IHFRuleCategaryRequest.m */; };
+		DCD4A73F1D1796A4000C9A7A /* IHFRuleSaveRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6D31D1796A4000C9A7A /* IHFRuleSaveRequest.m */; };
+		DCD4A7401D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6D61D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.m */; };
+		DCD4A7411D1796A4000C9A7A /* IHFLookUpRuleRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6D81D1796A4000C9A7A /* IHFLookUpRuleRespond.m */; };
+		DCD4A7421D1796A4000C9A7A /* IHFRuleCategaryRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6DA1D1796A4000C9A7A /* IHFRuleCategaryRespond.m */; };
+		DCD4A7431D1796A4000C9A7A /* IHFRuleSearchMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6DD1D1796A4000C9A7A /* IHFRuleSearchMgr.m */; };
+		DCD4A7441D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6E01D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.m */; };
+		DCD4A7451D1796A4000C9A7A /* IHFRuleSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6E21D1796A4000C9A7A /* IHFRuleSearchRequest.m */; };
+		DCD4A7461D1796A4000C9A7A /* IHFSaveSearchListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6E41D1796A4000C9A7A /* IHFSaveSearchListRequest.m */; };
+		DCD4A7471D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6E71D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.m */; };
+		DCD4A7481D1796A4000C9A7A /* VIESettingBundleMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6EA1D1796A4000C9A7A /* VIESettingBundleMgr.m */; };
+		DCD4A7491D1796A4000C9A7A /* VIENetWorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6EF1D1796A4000C9A7A /* VIENetWorkModel.m */; };
+		DCD4A74A1D1796A4000C9A7A /* VIENetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6F21D1796A4000C9A7A /* VIENetWorkRequest.m */; };
+		DCD4A74B1D1796A4000C9A7A /* VIEPageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6F41D1796A4000C9A7A /* VIEPageRequest.m */; };
+		DCD4A74C1D1796A4000C9A7A /* VIEUserIdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6F61D1796A4000C9A7A /* VIEUserIdRequest.m */; };
+		DCD4A74D1D1796A4000C9A7A /* VIENetWorkMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6F91D1796A4000C9A7A /* VIENetWorkMsg.m */; };
+		DCD4A74E1D1796A4000C9A7A /* VIENetWorkMsgReason.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6FB1D1796A4000C9A7A /* VIENetWorkMsgReason.m */; };
+		DCD4A74F1D1796A4000C9A7A /* VIENetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A6FD1D1796A4000C9A7A /* VIENetWork.m */; };
+		DCD4A7501D1796A4000C9A7A /* VIENetWorkMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7001D1796A4000C9A7A /* VIENetWorkMgr.m */; };
+		DCD4A7511D1796A4000C9A7A /* SQLiteUpgrade.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7031D1796A4000C9A7A /* SQLiteUpgrade.m */; };
+		DCD4A7521D1796A4000C9A7A /* VIEDatabaseUpgrade.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7061D1796A4000C9A7A /* VIEDatabaseUpgrade.m */; };
+		DCD4A7531D1796A4000C9A7A /* VIE_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7091D1796A4000C9A7A /* VIE_Tools.m */; };
+		DCD4A7541D1796A4000C9A7A /* VIE_MD5_Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A70D1D1796A4000C9A7A /* VIE_MD5_Extend.m */; };
+		DCD4A7551D1796A4000C9A7A /* VIEPopAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7111D1796A4000C9A7A /* VIEPopAnimationView.m */; };
+		DCD4A7561D1796A4000C9A7A /* VIEPopStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7131D1796A4000C9A7A /* VIEPopStyle.m */; };
+		DCD4A7571D1796A4000C9A7A /* TKRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7161D1796A4000C9A7A /* TKRoundedView.m */; };
+		DCD4A7581D1796A4000C9A7A /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7191D1796A4000C9A7A /* MBProgressHUD+MJ.m */; };
+		DCD4A7591D1796A4000C9A7A /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCD4A71A1D1796A4000C9A7A /* MBProgressHUD.bundle */; };
+		DCD4A75A1D1796A4000C9A7A /* VIEUpdateByCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A71D1D1796A4000C9A7A /* VIEUpdateByCompany.m */; };
+		DCD4A75B1D1796A4000C9A7A /* VIEAppDelegateMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7201D1796A4000C9A7A /* VIEAppDelegateMgr.m */; };
+		DCD4A75C1D1796A4000C9A7A /* VIECheckTokenActiveMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7221D1796A4000C9A7A /* VIECheckTokenActiveMgr.m */; };
+		DCD4A75D1D1796A4000C9A7A /* VIEViewControllerMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7241D1796A4000C9A7A /* VIEViewControllerMgr.m */; };
+		DCD4A7631D179A9A000C9A7A /* VIELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7611D179A99000C9A7A /* VIELoginViewController.m */; };
+		DCD4A7641D179A9A000C9A7A /* VIELoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD4A7621D179A99000C9A7A /* VIELoginViewController.xib */; };
+		DCD4A76D1D179BA6000C9A7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A7671D179BA6000C9A7A /* AppDelegate.m */; };
+		DCD4A76E1D179BA6000C9A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD4A7681D179BA6000C9A7A /* Assets.xcassets */; };
+		DCD4A76F1D179BA6000C9A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD4A7691D179BA6000C9A7A /* LaunchScreen.storyboard */; };
+		DCD4A7701D179BA6000C9A7A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCD4A76B1D179BA6000C9A7A /* Info.plist */; };
+		DCD4A7711D179BA6000C9A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD4A76C1D179BA6000C9A7A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,18 +90,137 @@
 		290E17D8F82780868C73828D /* libPods-Voice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEC9F36C724484AEDA39095 /* Pods-Voice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voice/Pods-Voice.release.xcconfig"; sourceTree = "<group>"; };
 		DCB14DC91D17953E005BEA63 /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB14DCD1D17953E005BEA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DCB14DCF1D17953E005BEA63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DCB14DD01D17953E005BEA63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCB14DD21D17953E005BEA63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCB14DD31D17953E005BEA63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DCB14DD61D17953E005BEA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCB14DD81D17953E005BEA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCB14DDB1D17953E005BEA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCB14DDD1D17953E005BEA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCB14DE21D17953E005BEA63 /* VoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB14DE61D17953E005BEA63 /* VoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceTests.m; sourceTree = "<group>"; };
 		DCB14DE81D17953E005BEA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4A68C1D1796A4000C9A7A /* VIE_ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_ErrorCode.h; sourceTree = "<group>"; };
+		DCD4A68D1D1796A4000C9A7A /* VIE_ErrorCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIE_ErrorCode.m; sourceTree = "<group>"; };
+		DCD4A68F1D1796A4000C9A7A /* VIE_ENums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_ENums.h; sourceTree = "<group>"; };
+		DCD4A6901D1796A4000C9A7A /* VIE_Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_Macros.h; sourceTree = "<group>"; };
+		DCD4A6911D1796A4000C9A7A /* VIE_Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_Skin.h; sourceTree = "<group>"; };
+		DCD4A6941D1796A4000C9A7A /* IHFAcountMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFAcountMgr.h; sourceTree = "<group>"; };
+		DCD4A6951D1796A4000C9A7A /* IHFAcountMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFAcountMgr.m; sourceTree = "<group>"; };
+		DCD4A6971D1796A4000C9A7A /* IHFLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFLoginRequest.h; sourceTree = "<group>"; };
+		DCD4A6981D1796A4000C9A7A /* IHFLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFLoginRequest.m; sourceTree = "<group>"; };
+		DCD4A69A1D1796A4000C9A7A /* IHFAcountRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFAcountRespond.h; sourceTree = "<group>"; };
+		DCD4A69B1D1796A4000C9A7A /* IHFAcountRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFAcountRespond.m; sourceTree = "<group>"; };
+		DCD4A69C1D1796A4000C9A7A /* IHFCommitteeRepond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFCommitteeRepond.h; sourceTree = "<group>"; };
+		DCD4A69D1D1796A4000C9A7A /* IHFCommitteeRepond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFCommitteeRepond.m; sourceTree = "<group>"; };
+		DCD4A69E1D1796A4000C9A7A /* IHFHospitalRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFHospitalRespond.h; sourceTree = "<group>"; };
+		DCD4A69F1D1796A4000C9A7A /* IHFHospitalRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFHospitalRespond.m; sourceTree = "<group>"; };
+		DCD4A6A11D1796A4000C9A7A /* IHFFieldCategoryMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFFieldCategoryMgr.h; sourceTree = "<group>"; };
+		DCD4A6A21D1796A4000C9A7A /* IHFFieldCategoryMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFFieldCategoryMgr.m; sourceTree = "<group>"; };
+		DCD4A6A41D1796A4000C9A7A /* IHFCharacterCategaryListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFCharacterCategaryListRequest.h; sourceTree = "<group>"; };
+		DCD4A6A51D1796A4000C9A7A /* IHFCharacterCategaryListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFCharacterCategaryListRequest.m; sourceTree = "<group>"; };
+		DCD4A6A61D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFGetCharacterChildValueRequest.h; sourceTree = "<group>"; };
+		DCD4A6A71D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFGetCharacterChildValueRequest.m; sourceTree = "<group>"; };
+		DCD4A6A81D1796A4000C9A7A /* IHFGetCharacterValueRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFGetCharacterValueRequest.h; sourceTree = "<group>"; };
+		DCD4A6A91D1796A4000C9A7A /* IHFGetCharacterValueRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFGetCharacterValueRequest.m; sourceTree = "<group>"; };
+		DCD4A6AB1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFCharacterCategaryListConfigRespond.h; sourceTree = "<group>"; };
+		DCD4A6AC1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFCharacterCategaryListConfigRespond.m; sourceTree = "<group>"; };
+		DCD4A6AD1D1796A4000C9A7A /* IHFCharacterCategaryListRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFCharacterCategaryListRespond.h; sourceTree = "<group>"; };
+		DCD4A6AE1D1796A4000C9A7A /* IHFCharacterCategaryListRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFCharacterCategaryListRespond.m; sourceTree = "<group>"; };
+		DCD4A6AF1D1796A4000C9A7A /* IHFGetCharacterValueRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFGetCharacterValueRespond.h; sourceTree = "<group>"; };
+		DCD4A6B01D1796A4000C9A7A /* IHFGetCharacterValueRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFGetCharacterValueRespond.m; sourceTree = "<group>"; };
+		DCD4A6B21D1796A4000C9A7A /* VIE_Macros_Web_Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_Macros_Web_Api.h; sourceTree = "<group>"; };
+		DCD4A6B41D1796A4000C9A7A /* IHFMedicineInstructionsMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicineInstructionsMgr.h; sourceTree = "<group>"; };
+		DCD4A6B51D1796A4000C9A7A /* IHFMedicineInstructionsMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicineInstructionsMgr.m; sourceTree = "<group>"; };
+		DCD4A6B71D1796A4000C9A7A /* IHFMedicIndexRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicIndexRequest.h; sourceTree = "<group>"; };
+		DCD4A6B81D1796A4000C9A7A /* IHFMedicIndexRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicIndexRequest.m; sourceTree = "<group>"; };
+		DCD4A6B91D1796A4000C9A7A /* IHFMedicSearchInstrRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicSearchInstrRequest.h; sourceTree = "<group>"; };
+		DCD4A6BA1D1796A4000C9A7A /* IHFMedicSearchInstrRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicSearchInstrRequest.m; sourceTree = "<group>"; };
+		DCD4A6BB1D1796A4000C9A7A /* IHFMedicSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicSearchRequest.h; sourceTree = "<group>"; };
+		DCD4A6BC1D1796A4000C9A7A /* IHFMedicSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicSearchRequest.m; sourceTree = "<group>"; };
+		DCD4A6BD1D1796A4000C9A7A /* IHFModifyMedicInstrRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFModifyMedicInstrRequest.h; sourceTree = "<group>"; };
+		DCD4A6BE1D1796A4000C9A7A /* IHFModifyMedicInstrRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFModifyMedicInstrRequest.m; sourceTree = "<group>"; };
+		DCD4A6C01D1796A4000C9A7A /* IHFMedicIndexBaseRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicIndexBaseRespond.h; sourceTree = "<group>"; };
+		DCD4A6C11D1796A4000C9A7A /* IHFMedicIndexBaseRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicIndexBaseRespond.m; sourceTree = "<group>"; };
+		DCD4A6C21D1796A4000C9A7A /* IHFMedicIndexClassRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicIndexClassRespond.h; sourceTree = "<group>"; };
+		DCD4A6C31D1796A4000C9A7A /* IHFMedicIndexClassRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicIndexClassRespond.m; sourceTree = "<group>"; };
+		DCD4A6C41D1796A4000C9A7A /* IHFMedicIndexRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicIndexRespond.h; sourceTree = "<group>"; };
+		DCD4A6C51D1796A4000C9A7A /* IHFMedicIndexRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicIndexRespond.m; sourceTree = "<group>"; };
+		DCD4A6C61D1796A4000C9A7A /* IHFMedicSearchInstrRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicSearchInstrRespond.h; sourceTree = "<group>"; };
+		DCD4A6C71D1796A4000C9A7A /* IHFMedicSearchInstrRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicSearchInstrRespond.m; sourceTree = "<group>"; };
+		DCD4A6C81D1796A4000C9A7A /* IHFMedicSearchRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMedicSearchRespond.h; sourceTree = "<group>"; };
+		DCD4A6C91D1796A4000C9A7A /* IHFMedicSearchRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMedicSearchRespond.m; sourceTree = "<group>"; };
+		DCD4A6CB1D1796A4000C9A7A /* IHFRuleTreeMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRuleTreeMgr.h; sourceTree = "<group>"; };
+		DCD4A6CC1D1796A4000C9A7A /* IHFRuleTreeMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRuleTreeMgr.m; sourceTree = "<group>"; };
+		DCD4A6CE1D1796A4000C9A7A /* IHFLookUpRuleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFLookUpRuleRequest.h; sourceTree = "<group>"; };
+		DCD4A6CF1D1796A4000C9A7A /* IHFLookUpRuleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFLookUpRuleRequest.m; sourceTree = "<group>"; };
+		DCD4A6D01D1796A4000C9A7A /* IHFRuleCategaryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRuleCategaryRequest.h; sourceTree = "<group>"; };
+		DCD4A6D11D1796A4000C9A7A /* IHFRuleCategaryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRuleCategaryRequest.m; sourceTree = "<group>"; };
+		DCD4A6D21D1796A4000C9A7A /* IHFRuleSaveRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRuleSaveRequest.h; sourceTree = "<group>"; };
+		DCD4A6D31D1796A4000C9A7A /* IHFRuleSaveRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRuleSaveRequest.m; sourceTree = "<group>"; };
+		DCD4A6D51D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFLookUpRuleContentsRespond.h; sourceTree = "<group>"; };
+		DCD4A6D61D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFLookUpRuleContentsRespond.m; sourceTree = "<group>"; };
+		DCD4A6D71D1796A4000C9A7A /* IHFLookUpRuleRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFLookUpRuleRespond.h; sourceTree = "<group>"; };
+		DCD4A6D81D1796A4000C9A7A /* IHFLookUpRuleRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFLookUpRuleRespond.m; sourceTree = "<group>"; };
+		DCD4A6D91D1796A4000C9A7A /* IHFRuleCategaryRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRuleCategaryRespond.h; sourceTree = "<group>"; };
+		DCD4A6DA1D1796A4000C9A7A /* IHFRuleCategaryRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRuleCategaryRespond.m; sourceTree = "<group>"; };
+		DCD4A6DC1D1796A4000C9A7A /* IHFRuleSearchMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRuleSearchMgr.h; sourceTree = "<group>"; };
+		DCD4A6DD1D1796A4000C9A7A /* IHFRuleSearchMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRuleSearchMgr.m; sourceTree = "<group>"; };
+		DCD4A6DF1D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFObtainHistroySearchListRequest.h; sourceTree = "<group>"; };
+		DCD4A6E01D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFObtainHistroySearchListRequest.m; sourceTree = "<group>"; };
+		DCD4A6E11D1796A4000C9A7A /* IHFRuleSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRuleSearchRequest.h; sourceTree = "<group>"; };
+		DCD4A6E21D1796A4000C9A7A /* IHFRuleSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRuleSearchRequest.m; sourceTree = "<group>"; };
+		DCD4A6E31D1796A4000C9A7A /* IHFSaveSearchListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFSaveSearchListRequest.h; sourceTree = "<group>"; };
+		DCD4A6E41D1796A4000C9A7A /* IHFSaveSearchListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFSaveSearchListRequest.m; sourceTree = "<group>"; };
+		DCD4A6E61D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFObtainHistorySearchListRespond.h; sourceTree = "<group>"; };
+		DCD4A6E71D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFObtainHistorySearchListRespond.m; sourceTree = "<group>"; };
+		DCD4A6E91D1796A4000C9A7A /* VIESettingBundleMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIESettingBundleMgr.h; sourceTree = "<group>"; };
+		DCD4A6EA1D1796A4000C9A7A /* VIESettingBundleMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIESettingBundleMgr.m; sourceTree = "<group>"; };
+		DCD4A6EE1D1796A4000C9A7A /* VIENetWorkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWorkModel.h; sourceTree = "<group>"; };
+		DCD4A6EF1D1796A4000C9A7A /* VIENetWorkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIENetWorkModel.m; sourceTree = "<group>"; };
+		DCD4A6F11D1796A4000C9A7A /* VIENetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWorkRequest.h; sourceTree = "<group>"; };
+		DCD4A6F21D1796A4000C9A7A /* VIENetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIENetWorkRequest.m; sourceTree = "<group>"; };
+		DCD4A6F31D1796A4000C9A7A /* VIEPageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEPageRequest.h; sourceTree = "<group>"; };
+		DCD4A6F41D1796A4000C9A7A /* VIEPageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEPageRequest.m; sourceTree = "<group>"; };
+		DCD4A6F51D1796A4000C9A7A /* VIEUserIdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEUserIdRequest.h; sourceTree = "<group>"; };
+		DCD4A6F61D1796A4000C9A7A /* VIEUserIdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEUserIdRequest.m; sourceTree = "<group>"; };
+		DCD4A6F81D1796A4000C9A7A /* VIENetWorkMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWorkMsg.h; sourceTree = "<group>"; };
+		DCD4A6F91D1796A4000C9A7A /* VIENetWorkMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIENetWorkMsg.m; sourceTree = "<group>"; };
+		DCD4A6FA1D1796A4000C9A7A /* VIENetWorkMsgReason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWorkMsgReason.h; sourceTree = "<group>"; };
+		DCD4A6FB1D1796A4000C9A7A /* VIENetWorkMsgReason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIENetWorkMsgReason.m; sourceTree = "<group>"; };
+		DCD4A6FC1D1796A4000C9A7A /* VIENetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWork.h; sourceTree = "<group>"; };
+		DCD4A6FD1D1796A4000C9A7A /* VIENetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIENetWork.m; sourceTree = "<group>"; };
+		DCD4A6FE1D1796A4000C9A7A /* VIENetWorkMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWorkMacros.h; sourceTree = "<group>"; };
+		DCD4A6FF1D1796A4000C9A7A /* VIENetWorkMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIENetWorkMgr.h; sourceTree = "<group>"; };
+		DCD4A7001D1796A4000C9A7A /* VIENetWorkMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIENetWorkMgr.m; sourceTree = "<group>"; };
+		DCD4A7021D1796A4000C9A7A /* SQLiteUpgrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteUpgrade.h; sourceTree = "<group>"; };
+		DCD4A7031D1796A4000C9A7A /* SQLiteUpgrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteUpgrade.m; sourceTree = "<group>"; };
+		DCD4A7041D1796A4000C9A7A /* SQLiteVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteVersion.h; sourceTree = "<group>"; };
+		DCD4A7051D1796A4000C9A7A /* VIEDatabaseUpgrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEDatabaseUpgrade.h; sourceTree = "<group>"; };
+		DCD4A7061D1796A4000C9A7A /* VIEDatabaseUpgrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEDatabaseUpgrade.m; sourceTree = "<group>"; };
+		DCD4A7081D1796A4000C9A7A /* VIE_Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_Tools.h; sourceTree = "<group>"; };
+		DCD4A7091D1796A4000C9A7A /* VIE_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIE_Tools.m; sourceTree = "<group>"; };
+		DCD4A70C1D1796A4000C9A7A /* VIE_MD5_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_MD5_Extend.h; sourceTree = "<group>"; };
+		DCD4A70D1D1796A4000C9A7A /* VIE_MD5_Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIE_MD5_Extend.m; sourceTree = "<group>"; };
+		DCD4A7101D1796A4000C9A7A /* VIEPopAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEPopAnimationView.h; sourceTree = "<group>"; };
+		DCD4A7111D1796A4000C9A7A /* VIEPopAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEPopAnimationView.m; sourceTree = "<group>"; };
+		DCD4A7121D1796A4000C9A7A /* VIEPopStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEPopStyle.h; sourceTree = "<group>"; };
+		DCD4A7131D1796A4000C9A7A /* VIEPopStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEPopStyle.m; sourceTree = "<group>"; };
+		DCD4A7151D1796A4000C9A7A /* TKRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRoundedView.h; sourceTree = "<group>"; };
+		DCD4A7161D1796A4000C9A7A /* TKRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRoundedView.m; sourceTree = "<group>"; };
+		DCD4A7181D1796A4000C9A7A /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		DCD4A7191D1796A4000C9A7A /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		DCD4A71A1D1796A4000C9A7A /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		DCD4A71C1D1796A4000C9A7A /* VIEUpdateByCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEUpdateByCompany.h; sourceTree = "<group>"; };
+		DCD4A71D1D1796A4000C9A7A /* VIEUpdateByCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEUpdateByCompany.m; sourceTree = "<group>"; };
+		DCD4A71F1D1796A4000C9A7A /* VIEAppDelegateMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEAppDelegateMgr.h; sourceTree = "<group>"; };
+		DCD4A7201D1796A4000C9A7A /* VIEAppDelegateMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEAppDelegateMgr.m; sourceTree = "<group>"; };
+		DCD4A7211D1796A4000C9A7A /* VIECheckTokenActiveMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIECheckTokenActiveMgr.h; sourceTree = "<group>"; };
+		DCD4A7221D1796A4000C9A7A /* VIECheckTokenActiveMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIECheckTokenActiveMgr.m; sourceTree = "<group>"; };
+		DCD4A7231D1796A4000C9A7A /* VIEViewControllerMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEViewControllerMgr.h; sourceTree = "<group>"; };
+		DCD4A7241D1796A4000C9A7A /* VIEViewControllerMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEViewControllerMgr.m; sourceTree = "<group>"; };
+		DCD4A7601D179A99000C9A7A /* VIELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIELoginViewController.h; sourceTree = "<group>"; };
+		DCD4A7611D179A99000C9A7A /* VIELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIELoginViewController.m; sourceTree = "<group>"; };
+		DCD4A7621D179A99000C9A7A /* VIELoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIELoginViewController.xib; sourceTree = "<group>"; };
+		DCD4A7661D179BA6000C9A7A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCD4A7671D179BA6000C9A7A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCD4A7681D179BA6000C9A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD4A76A1D179BA6000C9A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD4A76B1D179BA6000C9A7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4A76C1D179BA6000C9A7A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB14DCB1D17953E005BEA63 /* Voice */,
+				DCD4A7651D179BA6000C9A7A /* Others */,
 				DCB14DE51D17953E005BEA63 /* VoiceTests */,
 				DCB14DCA1D17953E005BEA63 /* Products */,
 				D8B6034D8A80F9C836639A82 /* Pods */,
@@ -105,25 +283,11 @@
 		DCB14DCB1D17953E005BEA63 /* Voice */ = {
 			isa = PBXGroup;
 			children = (
-				DCB14DCF1D17953E005BEA63 /* AppDelegate.h */,
-				DCB14DD01D17953E005BEA63 /* AppDelegate.m */,
-				DCB14DD21D17953E005BEA63 /* ViewController.h */,
-				DCB14DD31D17953E005BEA63 /* ViewController.m */,
-				DCB14DD51D17953E005BEA63 /* Main.storyboard */,
-				DCB14DD81D17953E005BEA63 /* Assets.xcassets */,
-				DCB14DDA1D17953E005BEA63 /* LaunchScreen.storyboard */,
-				DCB14DDD1D17953E005BEA63 /* Info.plist */,
-				DCB14DCC1D17953E005BEA63 /* Supporting Files */,
+				DCD4A68A1D1796A4000C9A7A /* CommonClasses */,
+				DCD4A71E1D1796A4000C9A7A /* ViewControllerMgr */,
+				DCD4A75F1D179A68000C9A7A /* 登录 */,
 			);
 			path = Voice;
-			sourceTree = "<group>";
-		};
-		DCB14DCC1D17953E005BEA63 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCB14DCD1D17953E005BEA63 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DCB14DE51D17953E005BEA63 /* VoiceTests */ = {
@@ -133,6 +297,435 @@
 				DCB14DE81D17953E005BEA63 /* Info.plist */,
 			);
 			path = VoiceTests;
+			sourceTree = "<group>";
+		};
+		DCD4A68A1D1796A4000C9A7A /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A68B1D1796A4000C9A7A /* ErrorCode */,
+				DCD4A68E1D1796A4000C9A7A /* Macro_ENum */,
+				DCD4A6921D1796A4000C9A7A /* ManagerApi */,
+				DCD4A6EB1D1796A4000C9A7A /* NetWork */,
+				DCD4A7011D1796A4000C9A7A /* SQLiteUpgrade */,
+				DCD4A7071D1796A4000C9A7A /* Tools */,
+				DCD4A70A1D1796A4000C9A7A /* Vendors */,
+				DCD4A71B1D1796A4000C9A7A /* VersionUpdate */,
+			);
+			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		DCD4A68B1D1796A4000C9A7A /* ErrorCode */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A68C1D1796A4000C9A7A /* VIE_ErrorCode.h */,
+				DCD4A68D1D1796A4000C9A7A /* VIE_ErrorCode.m */,
+			);
+			path = ErrorCode;
+			sourceTree = "<group>";
+		};
+		DCD4A68E1D1796A4000C9A7A /* Macro_ENum */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A68F1D1796A4000C9A7A /* VIE_ENums.h */,
+				DCD4A6901D1796A4000C9A7A /* VIE_Macros.h */,
+				DCD4A6911D1796A4000C9A7A /* VIE_Skin.h */,
+			);
+			path = Macro_ENum;
+			sourceTree = "<group>";
+		};
+		DCD4A6921D1796A4000C9A7A /* ManagerApi */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6931D1796A4000C9A7A /* AccountMgr */,
+				DCD4A6A01D1796A4000C9A7A /* FieldCategoryMgr */,
+				DCD4A6B11D1796A4000C9A7A /* Macros */,
+				DCD4A6B31D1796A4000C9A7A /* MedicineInstructionsMgr */,
+				DCD4A6CA1D1796A4000C9A7A /* RuleMgr */,
+				DCD4A6DB1D1796A4000C9A7A /* RuleSearchMgr */,
+				DCD4A6E81D1796A4000C9A7A /* SettingBundleMgr */,
+			);
+			path = ManagerApi;
+			sourceTree = "<group>";
+		};
+		DCD4A6931D1796A4000C9A7A /* AccountMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6941D1796A4000C9A7A /* IHFAcountMgr.h */,
+				DCD4A6951D1796A4000C9A7A /* IHFAcountMgr.m */,
+				DCD4A6961D1796A4000C9A7A /* Request */,
+				DCD4A6991D1796A4000C9A7A /* Respond */,
+			);
+			path = AccountMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A6961D1796A4000C9A7A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6971D1796A4000C9A7A /* IHFLoginRequest.h */,
+				DCD4A6981D1796A4000C9A7A /* IHFLoginRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DCD4A6991D1796A4000C9A7A /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A69A1D1796A4000C9A7A /* IHFAcountRespond.h */,
+				DCD4A69B1D1796A4000C9A7A /* IHFAcountRespond.m */,
+				DCD4A69C1D1796A4000C9A7A /* IHFCommitteeRepond.h */,
+				DCD4A69D1D1796A4000C9A7A /* IHFCommitteeRepond.m */,
+				DCD4A69E1D1796A4000C9A7A /* IHFHospitalRespond.h */,
+				DCD4A69F1D1796A4000C9A7A /* IHFHospitalRespond.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		DCD4A6A01D1796A4000C9A7A /* FieldCategoryMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6A11D1796A4000C9A7A /* IHFFieldCategoryMgr.h */,
+				DCD4A6A21D1796A4000C9A7A /* IHFFieldCategoryMgr.m */,
+				DCD4A6A31D1796A4000C9A7A /* Request */,
+				DCD4A6AA1D1796A4000C9A7A /* Respond */,
+			);
+			path = FieldCategoryMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A6A31D1796A4000C9A7A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6A41D1796A4000C9A7A /* IHFCharacterCategaryListRequest.h */,
+				DCD4A6A51D1796A4000C9A7A /* IHFCharacterCategaryListRequest.m */,
+				DCD4A6A61D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.h */,
+				DCD4A6A71D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.m */,
+				DCD4A6A81D1796A4000C9A7A /* IHFGetCharacterValueRequest.h */,
+				DCD4A6A91D1796A4000C9A7A /* IHFGetCharacterValueRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DCD4A6AA1D1796A4000C9A7A /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6AB1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.h */,
+				DCD4A6AC1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.m */,
+				DCD4A6AD1D1796A4000C9A7A /* IHFCharacterCategaryListRespond.h */,
+				DCD4A6AE1D1796A4000C9A7A /* IHFCharacterCategaryListRespond.m */,
+				DCD4A6AF1D1796A4000C9A7A /* IHFGetCharacterValueRespond.h */,
+				DCD4A6B01D1796A4000C9A7A /* IHFGetCharacterValueRespond.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		DCD4A6B11D1796A4000C9A7A /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6B21D1796A4000C9A7A /* VIE_Macros_Web_Api.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		DCD4A6B31D1796A4000C9A7A /* MedicineInstructionsMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6B41D1796A4000C9A7A /* IHFMedicineInstructionsMgr.h */,
+				DCD4A6B51D1796A4000C9A7A /* IHFMedicineInstructionsMgr.m */,
+				DCD4A6B61D1796A4000C9A7A /* Request */,
+				DCD4A6BF1D1796A4000C9A7A /* Respond */,
+			);
+			path = MedicineInstructionsMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A6B61D1796A4000C9A7A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6B71D1796A4000C9A7A /* IHFMedicIndexRequest.h */,
+				DCD4A6B81D1796A4000C9A7A /* IHFMedicIndexRequest.m */,
+				DCD4A6B91D1796A4000C9A7A /* IHFMedicSearchInstrRequest.h */,
+				DCD4A6BA1D1796A4000C9A7A /* IHFMedicSearchInstrRequest.m */,
+				DCD4A6BB1D1796A4000C9A7A /* IHFMedicSearchRequest.h */,
+				DCD4A6BC1D1796A4000C9A7A /* IHFMedicSearchRequest.m */,
+				DCD4A6BD1D1796A4000C9A7A /* IHFModifyMedicInstrRequest.h */,
+				DCD4A6BE1D1796A4000C9A7A /* IHFModifyMedicInstrRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DCD4A6BF1D1796A4000C9A7A /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6C01D1796A4000C9A7A /* IHFMedicIndexBaseRespond.h */,
+				DCD4A6C11D1796A4000C9A7A /* IHFMedicIndexBaseRespond.m */,
+				DCD4A6C21D1796A4000C9A7A /* IHFMedicIndexClassRespond.h */,
+				DCD4A6C31D1796A4000C9A7A /* IHFMedicIndexClassRespond.m */,
+				DCD4A6C41D1796A4000C9A7A /* IHFMedicIndexRespond.h */,
+				DCD4A6C51D1796A4000C9A7A /* IHFMedicIndexRespond.m */,
+				DCD4A6C61D1796A4000C9A7A /* IHFMedicSearchInstrRespond.h */,
+				DCD4A6C71D1796A4000C9A7A /* IHFMedicSearchInstrRespond.m */,
+				DCD4A6C81D1796A4000C9A7A /* IHFMedicSearchRespond.h */,
+				DCD4A6C91D1796A4000C9A7A /* IHFMedicSearchRespond.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		DCD4A6CA1D1796A4000C9A7A /* RuleMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6CB1D1796A4000C9A7A /* IHFRuleTreeMgr.h */,
+				DCD4A6CC1D1796A4000C9A7A /* IHFRuleTreeMgr.m */,
+				DCD4A6CD1D1796A4000C9A7A /* Request */,
+				DCD4A6D41D1796A4000C9A7A /* Respond */,
+			);
+			path = RuleMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A6CD1D1796A4000C9A7A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6CE1D1796A4000C9A7A /* IHFLookUpRuleRequest.h */,
+				DCD4A6CF1D1796A4000C9A7A /* IHFLookUpRuleRequest.m */,
+				DCD4A6D01D1796A4000C9A7A /* IHFRuleCategaryRequest.h */,
+				DCD4A6D11D1796A4000C9A7A /* IHFRuleCategaryRequest.m */,
+				DCD4A6D21D1796A4000C9A7A /* IHFRuleSaveRequest.h */,
+				DCD4A6D31D1796A4000C9A7A /* IHFRuleSaveRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DCD4A6D41D1796A4000C9A7A /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6D51D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.h */,
+				DCD4A6D61D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.m */,
+				DCD4A6D71D1796A4000C9A7A /* IHFLookUpRuleRespond.h */,
+				DCD4A6D81D1796A4000C9A7A /* IHFLookUpRuleRespond.m */,
+				DCD4A6D91D1796A4000C9A7A /* IHFRuleCategaryRespond.h */,
+				DCD4A6DA1D1796A4000C9A7A /* IHFRuleCategaryRespond.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		DCD4A6DB1D1796A4000C9A7A /* RuleSearchMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6DC1D1796A4000C9A7A /* IHFRuleSearchMgr.h */,
+				DCD4A6DD1D1796A4000C9A7A /* IHFRuleSearchMgr.m */,
+				DCD4A6DE1D1796A4000C9A7A /* Request */,
+				DCD4A6E51D1796A4000C9A7A /* Respond */,
+			);
+			path = RuleSearchMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A6DE1D1796A4000C9A7A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6DF1D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.h */,
+				DCD4A6E01D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.m */,
+				DCD4A6E11D1796A4000C9A7A /* IHFRuleSearchRequest.h */,
+				DCD4A6E21D1796A4000C9A7A /* IHFRuleSearchRequest.m */,
+				DCD4A6E31D1796A4000C9A7A /* IHFSaveSearchListRequest.h */,
+				DCD4A6E41D1796A4000C9A7A /* IHFSaveSearchListRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DCD4A6E51D1796A4000C9A7A /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6E61D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.h */,
+				DCD4A6E71D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		DCD4A6E81D1796A4000C9A7A /* SettingBundleMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6E91D1796A4000C9A7A /* VIESettingBundleMgr.h */,
+				DCD4A6EA1D1796A4000C9A7A /* VIESettingBundleMgr.m */,
+			);
+			path = SettingBundleMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A6EB1D1796A4000C9A7A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6EC1D1796A4000C9A7A /* Model */,
+				DCD4A6FC1D1796A4000C9A7A /* VIENetWork.h */,
+				DCD4A6FD1D1796A4000C9A7A /* VIENetWork.m */,
+				DCD4A6FE1D1796A4000C9A7A /* VIENetWorkMacros.h */,
+				DCD4A6FF1D1796A4000C9A7A /* VIENetWorkMgr.h */,
+				DCD4A7001D1796A4000C9A7A /* VIENetWorkMgr.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		DCD4A6EC1D1796A4000C9A7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6ED1D1796A4000C9A7A /* Base */,
+				DCD4A6F01D1796A4000C9A7A /* Request */,
+				DCD4A6F71D1796A4000C9A7A /* Respond */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCD4A6ED1D1796A4000C9A7A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6EE1D1796A4000C9A7A /* VIENetWorkModel.h */,
+				DCD4A6EF1D1796A4000C9A7A /* VIENetWorkModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DCD4A6F01D1796A4000C9A7A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6F11D1796A4000C9A7A /* VIENetWorkRequest.h */,
+				DCD4A6F21D1796A4000C9A7A /* VIENetWorkRequest.m */,
+				DCD4A6F31D1796A4000C9A7A /* VIEPageRequest.h */,
+				DCD4A6F41D1796A4000C9A7A /* VIEPageRequest.m */,
+				DCD4A6F51D1796A4000C9A7A /* VIEUserIdRequest.h */,
+				DCD4A6F61D1796A4000C9A7A /* VIEUserIdRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DCD4A6F71D1796A4000C9A7A /* Respond */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A6F81D1796A4000C9A7A /* VIENetWorkMsg.h */,
+				DCD4A6F91D1796A4000C9A7A /* VIENetWorkMsg.m */,
+				DCD4A6FA1D1796A4000C9A7A /* VIENetWorkMsgReason.h */,
+				DCD4A6FB1D1796A4000C9A7A /* VIENetWorkMsgReason.m */,
+			);
+			path = Respond;
+			sourceTree = "<group>";
+		};
+		DCD4A7011D1796A4000C9A7A /* SQLiteUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7021D1796A4000C9A7A /* SQLiteUpgrade.h */,
+				DCD4A7031D1796A4000C9A7A /* SQLiteUpgrade.m */,
+				DCD4A7041D1796A4000C9A7A /* SQLiteVersion.h */,
+				DCD4A7051D1796A4000C9A7A /* VIEDatabaseUpgrade.h */,
+				DCD4A7061D1796A4000C9A7A /* VIEDatabaseUpgrade.m */,
+			);
+			path = SQLiteUpgrade;
+			sourceTree = "<group>";
+		};
+		DCD4A7071D1796A4000C9A7A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7081D1796A4000C9A7A /* VIE_Tools.h */,
+				DCD4A7091D1796A4000C9A7A /* VIE_Tools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DCD4A70A1D1796A4000C9A7A /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A70B1D1796A4000C9A7A /* IHF_MD5 */,
+				DCD4A70E1D1796A4000C9A7A /* IHF_UI_Controller */,
+				DCD4A7171D1796A4000C9A7A /* MBProgressHUD+MJ */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		DCD4A70B1D1796A4000C9A7A /* IHF_MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A70C1D1796A4000C9A7A /* VIE_MD5_Extend.h */,
+				DCD4A70D1D1796A4000C9A7A /* VIE_MD5_Extend.m */,
+			);
+			path = IHF_MD5;
+			sourceTree = "<group>";
+		};
+		DCD4A70E1D1796A4000C9A7A /* IHF_UI_Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A70F1D1796A4000C9A7A /* IHFPopAnimationView */,
+				DCD4A7141D1796A4000C9A7A /* TKRoundedView */,
+			);
+			path = IHF_UI_Controller;
+			sourceTree = "<group>";
+		};
+		DCD4A70F1D1796A4000C9A7A /* IHFPopAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7101D1796A4000C9A7A /* VIEPopAnimationView.h */,
+				DCD4A7111D1796A4000C9A7A /* VIEPopAnimationView.m */,
+				DCD4A7121D1796A4000C9A7A /* VIEPopStyle.h */,
+				DCD4A7131D1796A4000C9A7A /* VIEPopStyle.m */,
+			);
+			path = IHFPopAnimationView;
+			sourceTree = "<group>";
+		};
+		DCD4A7141D1796A4000C9A7A /* TKRoundedView */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7151D1796A4000C9A7A /* TKRoundedView.h */,
+				DCD4A7161D1796A4000C9A7A /* TKRoundedView.m */,
+			);
+			path = TKRoundedView;
+			sourceTree = "<group>";
+		};
+		DCD4A7171D1796A4000C9A7A /* MBProgressHUD+MJ */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7181D1796A4000C9A7A /* MBProgressHUD+MJ.h */,
+				DCD4A7191D1796A4000C9A7A /* MBProgressHUD+MJ.m */,
+				DCD4A71A1D1796A4000C9A7A /* MBProgressHUD.bundle */,
+			);
+			path = "MBProgressHUD+MJ";
+			sourceTree = "<group>";
+		};
+		DCD4A71B1D1796A4000C9A7A /* VersionUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A71C1D1796A4000C9A7A /* VIEUpdateByCompany.h */,
+				DCD4A71D1D1796A4000C9A7A /* VIEUpdateByCompany.m */,
+			);
+			path = VersionUpdate;
+			sourceTree = "<group>";
+		};
+		DCD4A71E1D1796A4000C9A7A /* ViewControllerMgr */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A71F1D1796A4000C9A7A /* VIEAppDelegateMgr.h */,
+				DCD4A7201D1796A4000C9A7A /* VIEAppDelegateMgr.m */,
+				DCD4A7211D1796A4000C9A7A /* VIECheckTokenActiveMgr.h */,
+				DCD4A7221D1796A4000C9A7A /* VIECheckTokenActiveMgr.m */,
+				DCD4A7231D1796A4000C9A7A /* VIEViewControllerMgr.h */,
+				DCD4A7241D1796A4000C9A7A /* VIEViewControllerMgr.m */,
+			);
+			path = ViewControllerMgr;
+			sourceTree = "<group>";
+		};
+		DCD4A75F1D179A68000C9A7A /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7601D179A99000C9A7A /* VIELoginViewController.h */,
+				DCD4A7611D179A99000C9A7A /* VIELoginViewController.m */,
+				DCD4A7621D179A99000C9A7A /* VIELoginViewController.xib */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		DCD4A7651D179BA6000C9A7A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4A7661D179BA6000C9A7A /* AppDelegate.h */,
+				DCD4A7671D179BA6000C9A7A /* AppDelegate.m */,
+				DCD4A7681D179BA6000C9A7A /* Assets.xcassets */,
+				DCD4A7691D179BA6000C9A7A /* LaunchScreen.storyboard */,
+				DCD4A76B1D179BA6000C9A7A /* Info.plist */,
+				DCD4A76C1D179BA6000C9A7A /* main.m */,
+			);
+			name = Others;
+			path = Voice/Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +775,7 @@
 		DCB14DC11D17953E005BEA63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VIE;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "户善新";
 				TargetAttributes = {
@@ -218,9 +812,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB14DDC1D17953E005BEA63 /* LaunchScreen.storyboard in Resources */,
-				DCB14DD91D17953E005BEA63 /* Assets.xcassets in Resources */,
-				DCB14DD71D17953E005BEA63 /* Main.storyboard in Resources */,
+				DCD4A7591D1796A4000C9A7A /* MBProgressHUD.bundle in Resources */,
+				DCD4A76F1D179BA6000C9A7A /* LaunchScreen.storyboard in Resources */,
+				DCD4A76E1D179BA6000C9A7A /* Assets.xcassets in Resources */,
+				DCD4A7701D179BA6000C9A7A /* Info.plist in Resources */,
+				DCD4A7641D179A9A000C9A7A /* VIELoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +882,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB14DD41D17953E005BEA63 /* ViewController.m in Sources */,
-				DCB14DD11D17953E005BEA63 /* AppDelegate.m in Sources */,
-				DCB14DCE1D17953E005BEA63 /* main.m in Sources */,
+				DCD4A7401D1796A4000C9A7A /* IHFLookUpRuleContentsRespond.m in Sources */,
+				DCD4A72E1D1796A4000C9A7A /* IHFGetCharacterValueRequest.m in Sources */,
+				DCD4A7281D1796A4000C9A7A /* IHFAcountRespond.m in Sources */,
+				DCD4A7541D1796A4000C9A7A /* VIE_MD5_Extend.m in Sources */,
+				DCD4A74D1D1796A4000C9A7A /* VIENetWorkMsg.m in Sources */,
+				DCD4A7261D1796A4000C9A7A /* IHFAcountMgr.m in Sources */,
+				DCD4A7301D1796A4000C9A7A /* IHFCharacterCategaryListRespond.m in Sources */,
+				DCD4A7471D1796A4000C9A7A /* IHFObtainHistorySearchListRespond.m in Sources */,
+				DCD4A7461D1796A4000C9A7A /* IHFSaveSearchListRequest.m in Sources */,
+				DCD4A7311D1796A4000C9A7A /* IHFGetCharacterValueRespond.m in Sources */,
+				DCD4A7421D1796A4000C9A7A /* IHFRuleCategaryRespond.m in Sources */,
+				DCD4A7481D1796A4000C9A7A /* VIESettingBundleMgr.m in Sources */,
+				DCD4A72F1D1796A4000C9A7A /* IHFCharacterCategaryListConfigRespond.m in Sources */,
+				DCD4A72A1D1796A4000C9A7A /* IHFHospitalRespond.m in Sources */,
+				DCD4A7521D1796A4000C9A7A /* VIEDatabaseUpgrade.m in Sources */,
+				DCD4A7711D179BA6000C9A7A /* main.m in Sources */,
+				DCD4A7271D1796A4000C9A7A /* IHFLoginRequest.m in Sources */,
+				DCD4A7581D1796A4000C9A7A /* MBProgressHUD+MJ.m in Sources */,
+				DCD4A7371D1796A4000C9A7A /* IHFMedicIndexBaseRespond.m in Sources */,
+				DCD4A7561D1796A4000C9A7A /* VIEPopStyle.m in Sources */,
+				DCD4A7631D179A9A000C9A7A /* VIELoginViewController.m in Sources */,
+				DCD4A7341D1796A4000C9A7A /* IHFMedicSearchInstrRequest.m in Sources */,
+				DCD4A73A1D1796A4000C9A7A /* IHFMedicSearchInstrRespond.m in Sources */,
+				DCD4A7531D1796A4000C9A7A /* VIE_Tools.m in Sources */,
+				DCD4A7321D1796A4000C9A7A /* IHFMedicineInstructionsMgr.m in Sources */,
+				DCD4A7511D1796A4000C9A7A /* SQLiteUpgrade.m in Sources */,
+				DCD4A75D1D1796A4000C9A7A /* VIEViewControllerMgr.m in Sources */,
+				DCD4A73F1D1796A4000C9A7A /* IHFRuleSaveRequest.m in Sources */,
+				DCD4A7381D1796A4000C9A7A /* IHFMedicIndexClassRespond.m in Sources */,
+				DCD4A73D1D1796A4000C9A7A /* IHFLookUpRuleRequest.m in Sources */,
+				DCD4A74F1D1796A4000C9A7A /* VIENetWork.m in Sources */,
+				DCD4A7571D1796A4000C9A7A /* TKRoundedView.m in Sources */,
+				DCD4A75B1D1796A4000C9A7A /* VIEAppDelegateMgr.m in Sources */,
+				DCD4A7451D1796A4000C9A7A /* IHFRuleSearchRequest.m in Sources */,
+				DCD4A73C1D1796A4000C9A7A /* IHFRuleTreeMgr.m in Sources */,
+				DCD4A74C1D1796A4000C9A7A /* VIEUserIdRequest.m in Sources */,
+				DCD4A7291D1796A4000C9A7A /* IHFCommitteeRepond.m in Sources */,
+				DCD4A74B1D1796A4000C9A7A /* VIEPageRequest.m in Sources */,
+				DCD4A72D1D1796A4000C9A7A /* IHFGetCharacterChildValueRequest.m in Sources */,
+				DCD4A7411D1796A4000C9A7A /* IHFLookUpRuleRespond.m in Sources */,
+				DCD4A74A1D1796A4000C9A7A /* VIENetWorkRequest.m in Sources */,
+				DCD4A75C1D1796A4000C9A7A /* VIECheckTokenActiveMgr.m in Sources */,
+				DCD4A7501D1796A4000C9A7A /* VIENetWorkMgr.m in Sources */,
+				DCD4A75A1D1796A4000C9A7A /* VIEUpdateByCompany.m in Sources */,
+				DCD4A7491D1796A4000C9A7A /* VIENetWorkModel.m in Sources */,
+				DCD4A7351D1796A4000C9A7A /* IHFMedicSearchRequest.m in Sources */,
+				DCD4A73E1D1796A4000C9A7A /* IHFRuleCategaryRequest.m in Sources */,
+				DCD4A76D1D179BA6000C9A7A /* AppDelegate.m in Sources */,
+				DCD4A73B1D1796A4000C9A7A /* IHFMedicSearchRespond.m in Sources */,
+				DCD4A72C1D1796A4000C9A7A /* IHFCharacterCategaryListRequest.m in Sources */,
+				DCD4A74E1D1796A4000C9A7A /* VIENetWorkMsgReason.m in Sources */,
+				DCD4A72B1D1796A4000C9A7A /* IHFFieldCategoryMgr.m in Sources */,
+				DCD4A7251D1796A4000C9A7A /* VIE_ErrorCode.m in Sources */,
+				DCD4A7431D1796A4000C9A7A /* IHFRuleSearchMgr.m in Sources */,
+				DCD4A7391D1796A4000C9A7A /* IHFMedicIndexRespond.m in Sources */,
+				DCD4A7361D1796A4000C9A7A /* IHFModifyMedicInstrRequest.m in Sources */,
+				DCD4A7331D1796A4000C9A7A /* IHFMedicIndexRequest.m in Sources */,
+				DCD4A7551D1796A4000C9A7A /* VIEPopAnimationView.m in Sources */,
+				DCD4A7441D1796A4000C9A7A /* IHFObtainHistroySearchListRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,18 +963,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DCB14DD51D17953E005BEA63 /* Main.storyboard */ = {
+		DCD4A7691D179BA6000C9A7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCB14DD61D17953E005BEA63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DCB14DDA1D17953E005BEA63 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB14DDB1D17953E005BEA63 /* Base */,
+				DCD4A76A1D179BA6000C9A7A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -417,7 +1061,8 @@
 			baseConfigurationReference = 07B7397A83CA8ECEDF2DFD36 /* Pods-Voice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Voice/Info.plist;
+				INFOPLIST_FILE = Voice/Others/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vioce108.Voice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,7 +1074,8 @@
 			baseConfigurationReference = 4AEC9F36C724484AEDA39095 /* Pods-Voice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Voice/Info.plist;
+				INFOPLIST_FILE = Voice/Others/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vioce108.Voice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
