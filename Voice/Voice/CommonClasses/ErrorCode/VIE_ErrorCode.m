@@ -16,7 +16,7 @@
 {
     self = [super init];
     
-    return self;
+    return  self;
 }
 
 + (void)showErrorMsg:(NSString*)errorCode message:(NSString*)message
