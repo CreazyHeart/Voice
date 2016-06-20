@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E2FEC8A0C8CBA45F91F8A8 /* libPods-Voice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290E17D8F82780868C73828D /* libPods-Voice.a */; };
+		DCB14DCE1D17953E005BEA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DCD1D17953E005BEA63 /* main.m */; };
+		DCB14DD11D17953E005BEA63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DD01D17953E005BEA63 /* AppDelegate.m */; };
+		DCB14DD41D17953E005BEA63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DD31D17953E005BEA63 /* ViewController.m */; };
+		DCB14DD71D17953E005BEA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB14DD51D17953E005BEA63 /* Main.storyboard */; };
+		DCB14DD91D17953E005BEA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB14DD81D17953E005BEA63 /* Assets.xcassets */; };
+		DCB14DDC1D17953E005BEA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB14DDA1D17953E005BEA63 /* LaunchScreen.storyboard */; };
+		DCB14DE71D17953E005BEA63 /* VoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB14DE61D17953E005BEA63 /* VoiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB14DE31D17953E005BEA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB14DC11D17953E005BEA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB14DC81D17953E005BEA63;
+			remoteInfo = Voice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B7397A83CA8ECEDF2DFD36 /* Pods-Voice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voice/Pods-Voice.debug.xcconfig"; sourceTree = "<group>"; };
+		290E17D8F82780868C73828D /* libPods-Voice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEC9F36C724484AEDA39095 /* Pods-Voice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voice/Pods-Voice.release.xcconfig"; sourceTree = "<group>"; };
+		DCB14DC91D17953E005BEA63 /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB14DCD1D17953E005BEA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCB14DCF1D17953E005BEA63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCB14DD01D17953E005BEA63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCB14DD21D17953E005BEA63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCB14DD31D17953E005BEA63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCB14DD61D17953E005BEA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB14DD81D17953E005BEA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB14DDB1D17953E005BEA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB14DDD1D17953E005BEA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB14DE21D17953E005BEA63 /* VoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB14DE61D17953E005BEA63 /* VoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceTests.m; sourceTree = "<group>"; };
+		DCB14DE81D17953E005BEA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB14DC61D17953E005BEA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E2FEC8A0C8CBA45F91F8A8 /* libPods-Voice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB14DDF1D17953E005BEA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A97C8021882E4E58508DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				290E17D8F82780868C73828D /* libPods-Voice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B6034D8A80F9C836639A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B7397A83CA8ECEDF2DFD36 /* Pods-Voice.debug.xcconfig */,
+				4AEC9F36C724484AEDA39095 /* Pods-Voice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCB14DC01D17953E005BEA63 = {
+			isa = PBXGroup;
+			children = (
+				DCB14DCB1D17953E005BEA63 /* Voice */,
+				DCB14DE51D17953E005BEA63 /* VoiceTests */,
+				DCB14DCA1D17953E005BEA63 /* Products */,
+				D8B6034D8A80F9C836639A82 /* Pods */,
+				95A97C8021882E4E58508DE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB14DCA1D17953E005BEA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB14DC91D17953E005BEA63 /* Voice.app */,
+				DCB14DE21D17953E005BEA63 /* VoiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB14DCB1D17953E005BEA63 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				DCB14DCF1D17953E005BEA63 /* AppDelegate.h */,
+				DCB14DD01D17953E005BEA63 /* AppDelegate.m */,
+				DCB14DD21D17953E005BEA63 /* ViewController.h */,
+				DCB14DD31D17953E005BEA63 /* ViewController.m */,
+				DCB14DD51D17953E005BEA63 /* Main.storyboard */,
+				DCB14DD81D17953E005BEA63 /* Assets.xcassets */,
+				DCB14DDA1D17953E005BEA63 /* LaunchScreen.storyboard */,
+				DCB14DDD1D17953E005BEA63 /* Info.plist */,
+				DCB14DCC1D17953E005BEA63 /* Supporting Files */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		DCB14DCC1D17953E005BEA63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB14DCD1D17953E005BEA63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB14DE51D17953E005BEA63 /* VoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB14DE61D17953E005BEA63 /* VoiceTests.m */,
+				DCB14DE81D17953E005BEA63 /* Info.plist */,
+			);
+			path = VoiceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB14DC81D17953E005BEA63 /* Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB14DEB1D17953E005BEA63 /* Build configuration list for PBXNativeTarget "Voice" */;
+			buildPhases = (
+				C66BAC982501320CFD76E8A9 /* [CP] Check Pods Manifest.lock */,
+				DCB14DC51D17953E005BEA63 /* Sources */,
+				DCB14DC61D17953E005BEA63 /* Frameworks */,
+				DCB14DC71D17953E005BEA63 /* Resources */,
+				F2349D3961274D96C0298BBD /* [CP] Embed Pods Frameworks */,
+				2AAB99176778F023B8B8FAE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voice;
+			productName = Voice;
+			productReference = DCB14DC91D17953E005BEA63 /* Voice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB14DE11D17953E005BEA63 /* VoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB14DEE1D17953E005BEA63 /* Build configuration list for PBXNativeTarget "VoiceTests" */;
+			buildPhases = (
+				DCB14DDE1D17953E005BEA63 /* Sources */,
+				DCB14DDF1D17953E005BEA63 /* Frameworks */,
+				DCB14DE01D17953E005BEA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB14DE41D17953E005BEA63 /* PBXTargetDependency */,
+			);
+			name = VoiceTests;
+			productName = VoiceTests;
+			productReference = DCB14DE21D17953E005BEA63 /* VoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB14DC11D17953E005BEA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "户善新";
+				TargetAttributes = {
+					DCB14DC81D17953E005BEA63 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DCB14DE11D17953E005BEA63 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCB14DC81D17953E005BEA63;
+					};
+				};
+			};
+			buildConfigurationList = DCB14DC41D17953E005BEA63 /* Build configuration list for PBXProject "Voice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB14DC01D17953E005BEA63;
+			productRefGroup = DCB14DCA1D17953E005BEA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB14DC81D17953E005BEA63 /* Voice */,
+				DCB14DE11D17953E005BEA63 /* VoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB14DC71D17953E005BEA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB14DDC1D17953E005BEA63 /* LaunchScreen.storyboard in Resources */,
+				DCB14DD91D17953E005BEA63 /* Assets.xcassets in Resources */,
+				DCB14DD71D17953E005BEA63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB14DE01D17953E005BEA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AAB99176778F023B8B8FAE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voice/Pods-Voice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66BAC982501320CFD76E8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2349D3961274D96C0298BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voice/Pods-Voice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB14DC51D17953E005BEA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB14DD41D17953E005BEA63 /* ViewController.m in Sources */,
+				DCB14DD11D17953E005BEA63 /* AppDelegate.m in Sources */,
+				DCB14DCE1D17953E005BEA63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB14DDE1D17953E005BEA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB14DE71D17953E005BEA63 /* VoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB14DE41D17953E005BEA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB14DC81D17953E005BEA63 /* Voice */;
+			targetProxy = DCB14DE31D17953E005BEA63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB14DD51D17953E005BEA63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB14DD61D17953E005BEA63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB14DDA1D17953E005BEA63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB14DDB1D17953E005BEA63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB14DE91D17953E005BEA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCB14DEA1D17953E005BEA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB14DEC1D17953E005BEA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B7397A83CA8ECEDF2DFD36 /* Pods-Voice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vioce108.Voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCB14DED1D17953E005BEA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEC9F36C724484AEDA39095 /* Pods-Voice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Voice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vioce108.Voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCB14DEF1D17953E005BEA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vioce108.VoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice.app/Voice";
+			};
+			name = Debug;
+		};
+		DCB14DF01D17953E005BEA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vioce108.VoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice.app/Voice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB14DC41D17953E005BEA63 /* Build configuration list for PBXProject "Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB14DE91D17953E005BEA63 /* Debug */,
+				DCB14DEA1D17953E005BEA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB14DEB1D17953E005BEA63 /* Build configuration list for PBXNativeTarget "Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB14DEC1D17953E005BEA63 /* Debug */,
+				DCB14DED1D17953E005BEA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB14DEE1D17953E005BEA63 /* Build configuration list for PBXNativeTarget "VoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB14DEF1D17953E005BEA63 /* Debug */,
+				DCB14DF01D17953E005BEA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB14DC11D17953E005BEA63 /* Project object */;
+}
