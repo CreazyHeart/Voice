@@ -37,6 +37,9 @@
 }
 
 - (IBAction)weixinLogin:(UIButton *)sender {
+    
+    
+    
 }
 - (IBAction)qqLogin:(UIButton *)sender {
 }
