@@ -18,9 +18,7 @@
     
     return  self;
 }
-- (void)test{
-    NSLog(@"=============");
-}
+
 + (void)showErrorMsg:(NSString*)errorCode message:(NSString*)message
 {
     NSString *msg = [self paraErrorCode:errorCode message:message];
