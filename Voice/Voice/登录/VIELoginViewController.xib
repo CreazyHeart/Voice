@@ -20,10 +20,6 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iER-df-hjy" userLabel="第三方登录View">
                     <rect key="frame" x="0.0" y="591" width="375" height="30"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bo0-H6-30D">
-                            <rect key="frame" x="32" y="49" width="46" height="30"/>
-                            <state key="normal" title="Button"/>
-                        </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWH-Ff-iXm">
                             <rect key="frame" x="163" y="0.0" width="50" height="30"/>
                             <color key="backgroundColor" red="0.17230548500000001" green="1" blue="0.1231770593" alpha="1" colorSpace="calibratedRGB"/>
@@ -35,10 +31,6 @@
                             <connections>
                                 <action selector="qqLogin:" destination="-1" eventType="touchUpInside" id="O1f-KH-ogp"/>
                             </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meU-lh-8Wd">
-                            <rect key="frame" x="199" y="49" width="46" height="30"/>
-                            <state key="normal" title="Button"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEO-9X-Nwg">
                             <rect key="frame" x="93" y="0.0" width="50" height="30"/>
