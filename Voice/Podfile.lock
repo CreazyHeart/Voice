@@ -25,10 +25,13 @@ PODS:
   - MBProgressHUD (0.9.2)
   - MJExtension (3.0.10)
   - MJRefresh (3.1.1)
+  - MOBFoundation_IDFA (1.5.4)
   - MTLFMDBAdapter (0.2.2):
     - FMDB (~> 2.3)
     - Mantle (~> 2.0)
   - SBJson (4.0.2)
+  - SMSSDK (2.0.4)
+  - UMengSocialCOM (5.2.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
@@ -39,8 +42,11 @@ DEPENDENCIES:
   - MBProgressHUD (~> 0.9.2)
   - MJExtension (~> 3.0.10)
   - MJRefresh (~> 3.1.0)
+  - MOBFoundation_IDFA
   - MTLFMDBAdapter (~> 0.2.0)
   - SBJson (~> 4.0.2)
+  - SMSSDK
+  - UMengSocialCOM (~> 5.2.1)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -51,9 +57,12 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
   MJRefresh: 70a47c5543b567cdaf70ead5a6e99ce820652eb9
+  MOBFoundation_IDFA: bde858415b935fb39d7ea0e9a3b80251e0de1645
   MTLFMDBAdapter: 8396bb1c357bd9f77649c40993a1e64dc0bada26
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SMSSDK: 642b6a8c55fd382be44487cd5e0b0710681895f9
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
-PODFILE CHECKSUM: b928d75ac40a426858b92465e8f113b084ce340e
+PODFILE CHECKSUM: d07ccec5a8181dae1def8121cd5d441d5e9b15ce
 
 COCOAPODS: 1.0.1
