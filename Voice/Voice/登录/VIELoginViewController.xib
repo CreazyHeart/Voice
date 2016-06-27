@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VIELoginViewController">
             <connections>
+                <outlet property="Code" destination="DDL-8T-ZZa" id="D1P-Oh-sfq"/>
+                <outlet property="phoneNumber" destination="WJ9-J8-o1z" id="Ij5-5J-d5z"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -30,6 +32,9 @@
                                 <constraint firstAttribute="height" constant="30" id="kon-m5-C3c"/>
                             </constraints>
                             <state key="normal" title="QQ"/>
+                            <connections>
+                                <action selector="qqLogin:" destination="-1" eventType="touchUpInside" id="O1f-KH-ogp"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meU-lh-8Wd">
                             <rect key="frame" x="199" y="49" width="46" height="30"/>
@@ -39,11 +44,17 @@
                             <rect key="frame" x="93" y="0.0" width="50" height="30"/>
                             <color key="backgroundColor" red="0.17230548495796549" green="1" blue="0.12317705927866685" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="微信"/>
+                            <connections>
+                                <action selector="weixinLogin:" destination="-1" eventType="touchUpInside" id="B4o-ek-LrN"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lf6-0a-bgg">
                             <rect key="frame" x="233" y="0.0" width="50" height="30"/>
                             <color key="backgroundColor" red="0.17230548500000001" green="1" blue="0.1231770593" alpha="1" colorSpace="calibratedRGB"/>
                             <state key="normal" title="微博"/>
+                            <connections>
+                                <action selector="weiboLogin:" destination="-1" eventType="touchUpInside" id="bOX-V1-3jZ"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -71,6 +82,9 @@
                     <state key="normal" title="登录">
                         <color key="titleColor" red="0.3302017665132414" green="0.45767650076265798" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="login" destination="-1" eventType="touchUpInside" id="skh-AK-zUP"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WJ9-J8-o1z">
                     <rect key="frame" x="27" y="94" width="204" height="30"/>
@@ -80,6 +94,9 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kax-aI-Iqm">
                     <rect key="frame" x="250" y="94" width="75" height="30"/>
                     <state key="normal" title="获取验证码"/>
+                    <connections>
+                        <action selector="getCode" destination="-1" eventType="touchUpInside" id="nip-7G-ZgI"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="验证码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDL-8T-ZZa">
                     <rect key="frame" x="27" y="166" width="97" height="30"/>
@@ -97,7 +114,7 @@
                 <constraint firstAttribute="bottom" secondItem="iER-df-hjy" secondAttribute="bottom" constant="46" id="vut-J3-Jro"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="420" y="305"/>
+            <point key="canvasLocation" x="236.5" y="111.5"/>
         </view>
     </objects>
 </document>
