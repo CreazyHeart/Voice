@@ -7,7 +7,6 @@
 //
 
 #import "VIELoginViewController.h"
-
 @interface VIELoginViewController ()
 
 /**
@@ -50,7 +49,6 @@
 
 
 - (IBAction)getCode {
-    
     
 }
 - (IBAction)login {
