@@ -32,7 +32,8 @@
     [alert show];
 #else
     
-    //[MBProgressHUD message:msg];
+//    [MBProgressHUD message:msg];
+    NSLog(@"%@",msg);
     
 #endif
     

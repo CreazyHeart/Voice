@@ -104,6 +104,7 @@
 		DC806E8F1D2105F1006F4CCF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		DC806E911D21060E006F4CCF /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
 		DC806E931D210624006F4CCF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		DC806E951D210AAA006F4CCF /* VIE_AppKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIE_AppKey.h; sourceTree = "<group>"; };
 		DCB14DC91D17953E005BEA63 /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB14DE21D17953E005BEA63 /* VoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB14DE61D17953E005BEA63 /* VoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceTests.m; sourceTree = "<group>"; };
@@ -361,6 +362,7 @@
 				DCD4A68F1D1796A4000C9A7A /* VIE_ENums.h */,
 				DCD4A6901D1796A4000C9A7A /* VIE_Macros.h */,
 				DCD4A6911D1796A4000C9A7A /* VIE_Skin.h */,
+				DC806E951D210AAA006F4CCF /* VIE_AppKey.h */,
 			);
 			path = Macro_ENum;
 			sourceTree = "<group>";

@@ -10,9 +10,12 @@
 #import "VIEAppDelegateMgr.h"
 #import "VIEViewControllerMgr.h"
 #import <SMS_SDK/SMSSDK.h>
+#import "UMSocial.h"
+#import "VIE_AppKey.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialWechatHandler.h"
 
-#define APPKEY @"1451be7678db4"
-#define APPSECRET @"b3f5aac34a4957f8f0f86ecaae37eaa1"
+
 @interface AppDelegate ()
 
 @end
@@ -27,7 +30,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [SMSSDK registerApp:APPKEY withSecret:APPSECRET];
     /************************************************************
      //ios7修改界面顶部状态栏内的文字颜色
      第一步：打开**-Info.plist
@@ -49,6 +51,20 @@
     self.window.rootViewController = [[VIEViewControllerMgr sharedInstance] creatRootViewControl];
     
     
+    // SMS第三方短信验证初始化
+    [SMSSDK registerApp:SMS_AppKey withSecret:SMS_AppSecret];
+
+    // UMeng 第三方初始化
+    [UMSocialData setAppKey:UMeng_AppKey];
+    
+    // 第三方QQ登录初始化
+    //设置分享到QQ/Qzone的应用Id，和分享url 链接
+
+    [UMSocialQQHandler setQQWithAppId:QQ_AppId appKey:QQ_AppKey url:@"http://www.umeng.com/social"];
+    // 第三方微信登录
+    //设置微信AppId、appSecret，分享url
+    
+    [UMSocialWechatHandler setWXAppId:WX_AppId appSecret:WX_AppSecret url:@"http://www.umeng.com/social"];
     
     return YES;
 }
