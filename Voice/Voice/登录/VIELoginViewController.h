@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <SMS_SDK/SMSSDK.h>
 @interface VIELoginViewController : UIViewController
 
 

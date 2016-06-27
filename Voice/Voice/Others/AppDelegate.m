@@ -9,7 +9,10 @@
 #import "AppDelegate.h"
 #import "VIEAppDelegateMgr.h"
 #import "VIEViewControllerMgr.h"
+#import <SMS_SDK/SMSSDK.h>
 
+#define APPKEY @"1451be7678db4"
+#define APPSECRET @"b3f5aac34a4957f8f0f86ecaae37eaa1"
 @interface AppDelegate ()
 
 @end
@@ -24,7 +27,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    
+    [SMSSDK registerApp:APPKEY withSecret:APPSECRET];
     /************************************************************
      //ios7修改界面顶部状态栏内的文字颜色
      第一步：打开**-Info.plist
