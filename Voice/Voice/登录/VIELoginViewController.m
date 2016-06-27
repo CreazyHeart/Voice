@@ -126,6 +126,8 @@ typedef void (^SMSGetCodeResultHandler) (NSError *error);
          [self presentViewController:alert animated:YES completion:nil];
 
          NSLog(@"错误信息：%@",error);
+         
+         
      }}];
     [self.phoneNumber resignFirstResponder];
 }
