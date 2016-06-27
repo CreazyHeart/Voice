@@ -7,6 +7,7 @@
 //
 
 #import "VIELoginViewController.h"
+
 @interface VIELoginViewController ()
 
 /**
@@ -28,6 +29,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -45,7 +50,7 @@
 
 
 - (IBAction)getCode {
-        
+    
     
 }
 - (IBAction)login {
