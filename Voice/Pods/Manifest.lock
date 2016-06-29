@@ -31,7 +31,6 @@ PODS:
     - Mantle (~> 2.0)
   - SBJson (4.0.2)
   - SMSSDK (2.0.4)
-  - UMengSocialCOM (5.2.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
@@ -46,7 +45,6 @@ DEPENDENCIES:
   - MTLFMDBAdapter (~> 0.2.0)
   - SBJson (~> 4.0.2)
   - SMSSDK
-  - UMengSocialCOM (~> 5.2.1)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -61,8 +59,7 @@ SPEC CHECKSUMS:
   MTLFMDBAdapter: 8396bb1c357bd9f77649c40993a1e64dc0bada26
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
   SMSSDK: 642b6a8c55fd382be44487cd5e0b0710681895f9
-  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
-PODFILE CHECKSUM: d07ccec5a8181dae1def8121cd5d441d5e9b15ce
+PODFILE CHECKSUM: 43787a1b67e8f3974f9459ae59895585b0eafb74
 
 COCOAPODS: 1.0.1

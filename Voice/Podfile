@@ -16,6 +16,5 @@ pod 'IQKeyboardManager'
 pod 'MOBFoundation_IDFA'
 pod 'SMSSDK'
 
-pod 'UMengSocialCOM', '~> 5.2.1'
 
 end
